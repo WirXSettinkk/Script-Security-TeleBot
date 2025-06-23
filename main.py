@@ -11,7 +11,7 @@ for filename in os.listdir(directory):
     if filename.startswith(prefix) and os.path.isfile(os.path.join(directory, filename)):
         os.remove(os.path.join(directory, filename))
 
-TOKEN = 'BOT_TOKEN_ANDA'
+TOKEN = '7985354551:AAFtaUnmJ6T-fitE3su8qkQbCR8mI5sojS8'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('Halo! Terima kasih sudah memulai bot ini. Source Code: https://github.com/RiProG-id/Script-Security-TeleBot)', disable_web_page_preview=True)
